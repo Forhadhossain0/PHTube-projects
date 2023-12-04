@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Categories</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <!-- Your navigation bar goes here if needed -->
+    </div>
+
+    <div class="content">
+        <div class="category-list" >
+            <h2 align="center">Video Categories</h2>
+            <ul id="categoryList" style="display: flex; list-style: none; justify-content: center;">
+                <!-- Categories will be displayed here -->
+            </ul>
+        </div>
+
+        <div class="sort-button " style="display: flex;justify-content: center;">
+            <button  onclick="sortVideoCardsByViews()"  id="sortButton">Sort by Views</button>
+        </div>
+
+        <div class="video-cards">
+            <!-- Video cards will be displayed here -->
+        </div>
+    </div>
+
+    <script src="sort.js"></script>
+</body>
+
+</html>
